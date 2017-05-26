@@ -1,9 +1,11 @@
 
 function iterativeLog(array) {
-array.forEach((ele,idx)) => {
-    console.log(`${idx} ${ele}`)
-  }
+array.forEach((ele,idx) => {
+    console.log(`${idx}: ${ele}`)
+  })
 }
+
+
 
 function iterate(callback) {
   const stuff = ['pen','dog','egg']
